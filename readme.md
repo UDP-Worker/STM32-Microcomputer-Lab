@@ -23,6 +23,7 @@
 - F01_BUTTON_LED: 请忽略
 - F02_CLION_MX_TEST: 请忽略
 - F03_MX_CLION_TEST: 使用CLion + Cubemx开发测试
+- F04_EXTI: 微机原理课程硬件实验一
 
 ## 开发环境(F字头实验)
 
