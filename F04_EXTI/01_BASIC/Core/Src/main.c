@@ -35,13 +35,22 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-
+volatile int8_t direction = 1; // 初始正向
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+GPIO_TypeDef* LED_GPIO_Port[8] = {
+  LED1_GPIO_Port,LED2_GPIO_Port,LED3_GPIO_Port,LED4_GPIO_Port,
+  LED5_GPIO_Port,LED6_GPIO_Port,LED7_GPIO_Port,LED8_GPIO_Port
+};
 
+uint16_t LED_Pin[8] = {
+  LED1_Pin, LED2_Pin, LED3_Pin,
+  LED4_Pin, LED5_Pin, LED6_Pin,
+  LED7_Pin, LED8_Pin
+};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -85,7 +94,11 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-
+  for (uint8_t i = 0; i < 8; i++)
+  {
+    HAL_GPIO_WritePin(LED_GPIO_Port[i],LED_Pin[i],GPIO_PIN_RESET);
+  }
+  uint8_t current_led = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -95,6 +108,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+
+    HAL_GPIO_WritePin(LED_GPIO_Port[current_led],LED_Pin[current_led],GPIO_PIN_SET);
+    HAL_Delay(1000);
+    HAL_GPIO_WritePin(LED_GPIO_Port[current_led],LED_Pin[current_led],GPIO_PIN_RESET);
+    current_led = (current_led + direction + 8) % 8;
   }
   /* USER CODE END 3 */
 }
@@ -203,7 +221,17 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+  if(GPIO_Pin == GPIO_PIN_0)
+  {
+    direction = 1;
+  }
+  else
+  {
+    direction = -1;
+  }
+}
 /* USER CODE END 4 */
 
 /**
