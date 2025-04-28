@@ -1,0 +1,23 @@
+13:37:25 **** Incremental Build of configuration Debug for project 11_GTIM_IC ****
+make -j20 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/BSP/LED -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "11_GTIM_IC.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\SynologyDrive\STM32\11_GTIM_IC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="11_GTIM_IC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 11_GTIM_IC.elf
+ 
+arm-none-eabi-size  11_GTIM_IC.elf 
+arm-none-eabi-objdump -h -S 11_GTIM_IC.elf  > "11_GTIM_IC.list"
+   text	   data	    bss	    dec	    hex	filename
+  27404	    468	   2060	  29932	   74ec	11_GTIM_IC.elf
+arm-none-eabi-objcopy  -O ihex 11_GTIM_IC.elf  "11_GTIM_IC.hex"
+Finished building: default.size.stdout
+arm-none-eabi-objcopy  -O binary 11_GTIM_IC.elf  "11_GTIM_IC.bin"
+ 
+Finished building: 11_GTIM_IC.hex
+Finished building: 11_GTIM_IC.list
+ 
+ 
+Finished building: 11_GTIM_IC.bin
+ 
+
+13:37:26 Build Finished. 0 errors, 0 warnings. (took 922ms)
+

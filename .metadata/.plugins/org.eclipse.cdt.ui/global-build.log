@@ -1,0 +1,26 @@
+11:17:54 **** Incremental Build of configuration Debug for project 16_START ****
+make -j20 all 
+arm-none-eabi-gcc -o "16_START.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\SynologyDrive\STM32\16_START\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="16_START.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 16_START.elf
+ 
+arm-none-eabi-size  16_START.elf 
+arm-none-eabi-objdump -h -S 16_START.elf  > "16_START.list"
+   text	   data	    bss	    dec	    hex	filename
+   6412	     12	   1572	   7996	   1f3c	16_START.elf
+Finished building: default.size.stdout
+ 
+Finished building: 16_START.list
+ 
+11:18:05 **** Incremental Build of configuration Debug for project 16_START ****
+make -j20 all 
+arm-none-eabi-gcc -o "16_START.elf" @"objects.list"   -mcpu=cortex-m4 -T"E:\SynologyDrive\STM32\16_START\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="16_START.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 16_START.elf
+ 
+arm-none-eabi-size  16_START.elf 
+arm-none-eabi-objdump -h -S 16_START.elf  > "16_START.list"
+   text	   data	    bss	    dec	    hex	filename
+   6412	     12	   1572	   7996	   1f3c	16_START.elf
+Finished building: default.size.stdout
+ 
+Finished building: 16_START.list
+ 
