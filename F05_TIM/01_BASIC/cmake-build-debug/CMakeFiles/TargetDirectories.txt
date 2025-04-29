@@ -1,0 +1,3 @@
+D:/SynologyDrive/STM32/F05_TIM/01_BASIC/cmake-build-debug/CMakeFiles/01_BASIC.elf.dir
+D:/SynologyDrive/STM32/F05_TIM/01_BASIC/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SynologyDrive/STM32/F05_TIM/01_BASIC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
