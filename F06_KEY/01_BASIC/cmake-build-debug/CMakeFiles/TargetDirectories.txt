@@ -1,0 +1,3 @@
+F:/STM32/F06_KEY/01_BASIC/cmake-build-debug/CMakeFiles/01_BASIC.elf.dir
+F:/STM32/F06_KEY/01_BASIC/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/STM32/F06_KEY/01_BASIC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -25,7 +25,7 @@
 - F03_MX_CLION_TEST: 使用CLion + Cubemx开发测试
 - F04_EXTI: 微机原理课程硬件实验一
 - F05_TIM: 微机原理课程硬件实验二
-
+- F06_KEY: 微机原理课程硬件实验三
 ## 开发环境(F字头实验)
 
 - 开发板：STM32F446RE Nucleo-64
