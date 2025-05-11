@@ -1,5 +1,5 @@
 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj: \
- D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\syscalls.c \
+ F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\syscalls.c \
  c:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\arm-none-eabi\include\sys\stat.h \
  c:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\arm-none-eabi\include\_ansi.h \
  c:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\arm-none-eabi\include\newlib.h \

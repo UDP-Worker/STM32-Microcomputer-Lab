@@ -103,8 +103,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xb0 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj
  .debug_ranges  0x00000000       0xa0 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00000000      0x56c CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000      0x898 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00000000      0x55e CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00000000      0x87c CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj
  .debug_frame   0x00000000      0x1a8 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
@@ -235,8 +235,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x90 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_ranges  0x00000000       0x80 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x00000000      0xf0e CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_str     0x00000000      0x896 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x00000000      0xed6 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x00000000      0x87a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_frame   0x00000000      0x188 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .ARM.attributes
@@ -258,8 +258,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x38 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_ranges  0x00000000       0x28 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_line    0x00000000      0xaef CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_str     0x00000000      0x68b CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_line    0x00000000      0xab7 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000      0x66f CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_frame   0x00000000       0x74 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -291,8 +291,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x60 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_ranges  0x00000000       0x50 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_line    0x00000000      0x6f4 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_str     0x00000000      0x532 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_line    0x00000000      0x6bc CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_str     0x00000000      0x516 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_frame   0x00000000       0xf4 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .ARM.attributes
@@ -341,8 +341,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_ranges  0x00000000       0x90 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_line    0x00000000      0x839 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_str     0x00000000      0x67a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_line    0x00000000      0x801 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_str     0x00000000      0x65e CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x168 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .ARM.attributes
@@ -400,8 +400,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xc8 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_ranges  0x00000000       0xb8 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_line    0x00000000      0x937 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_str     0x00000000      0x79d CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_line    0x00000000      0x8ff CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000      0x781 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x1e8 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -415,8 +415,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x38 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .debug_ranges  0x00000000       0x28 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_line    0x00000000      0x309 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x00000000      0x504 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_line    0x00000000      0x2d1 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x00000000      0x4e8 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .debug_frame   0x00000000       0x70 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
@@ -476,8 +476,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_ranges  0x00000000       0x90 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_line    0x00000000      0x4e2 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_str     0x00000000      0x696 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_line    0x00000000      0x4aa CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_str     0x00000000      0x67a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x138 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .ARM.attributes
@@ -509,8 +509,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x60 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_ranges  0x00000000       0x50 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_line    0x00000000      0x588 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_str     0x00000000      0x620 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00000000      0x550 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_str     0x00000000      0x604 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_frame   0x00000000       0xf4 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -574,8 +574,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x97 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x00000000      0x209 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_str     0x00000000      0x306 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x00000000      0x1df CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_str     0x00000000      0x2ea CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .ARM.attributes
                 0x00000000       0x33 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -586,8 +586,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x97 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x00000000      0x209 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_str     0x00000000      0x309 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x00000000      0x1df CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x00000000      0x2ed CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .comment       0x00000000       0x7a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .ARM.attributes
                 0x00000000       0x33 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
@@ -1220,39 +1220,39 @@ OUTPUT(01_BASIC.elf elf32-littlearm)
  .debug_ranges  0x00000368       0x80 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_ranges  0x000003e8       0x20 CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj
 
-.debug_line     0x00000000     0x46ad
- .debug_line    0x00000000      0x5cc CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000005cc      0x288 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00000854      0x3a4 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x00000bf8      0x33d CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x00000f35      0x625 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x0000155a      0x862 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x00001dbc      0x7e5 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x000025a1      0xbf9 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x0000319a     0x146a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
- .debug_line    0x00004604       0xa9 CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj
+.debug_line     0x00000000     0x44a7
+ .debug_line    0x00000000      0x594 CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000594      0x250 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x000007e4      0x36c CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00000b50      0x305 CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00000e55      0x5ed CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00001442      0x82a CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00001c6c      0x7ad CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x00002419      0xbc1 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x00002fda     0x1432 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000440c       0x9b CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj
 
-.debug_str      0x00000000     0x1c50
- .debug_str     0x00000000      0xbeb CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj
-                                0xc73 (size before relaxing)
- .debug_str     0x00000beb       0x54 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                                0x422 (size before relaxing)
- .debug_str     0x00000c3f      0x11a CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                                0x3d4 (size before relaxing)
- .debug_str     0x00000d59       0x83 CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                                0x44a (size before relaxing)
- .debug_str     0x00000ddc      0x2fe CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                                0xc71 (size before relaxing)
- .debug_str     0x000010da      0x4ce CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                                0xd8b (size before relaxing)
- .debug_str     0x000015a8      0x127 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                                0x635 (size before relaxing)
- .debug_str     0x000016cf      0x1bb CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                                0x818 (size before relaxing)
- .debug_str     0x0000188a      0x36f CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
-                                0x91b (size before relaxing)
- .debug_str     0x00001bf9       0x57 CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj
-                                 0x94 (size before relaxing)
+.debug_str      0x00000000     0x1bb6
+ .debug_str     0x00000000      0xbcf CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj
+                                0xc57 (size before relaxing)
+ .debug_str     0x00000bcf       0x46 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                                0x406 (size before relaxing)
+ .debug_str     0x00000c15      0x10c CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                                0x3b8 (size before relaxing)
+ .debug_str     0x00000d21       0x75 CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                                0x42e (size before relaxing)
+ .debug_str     0x00000d96      0x2f0 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                                0xc55 (size before relaxing)
+ .debug_str     0x00001086      0x4c0 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                                0xd6f (size before relaxing)
+ .debug_str     0x00001546      0x119 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                                0x619 (size before relaxing)
+ .debug_str     0x0000165f      0x1ad CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                                0x7fc (size before relaxing)
+ .debug_str     0x0000180c      0x361 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+                                0x8ff (size before relaxing)
+ .debug_str     0x00001b6d       0x49 CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj
+                                 0x78 (size before relaxing)
 
 .comment        0x00000000       0x79
  .comment       0x00000000       0x79 CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj

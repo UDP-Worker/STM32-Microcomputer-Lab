@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-D:/SynologyDrive/STM32/F04_EXTI/01_BASIC/startup/startup_stm32f446xx.s
+F:/STM32/F04_EXTI/01_BASIC/startup/startup_stm32f446xx.s
 

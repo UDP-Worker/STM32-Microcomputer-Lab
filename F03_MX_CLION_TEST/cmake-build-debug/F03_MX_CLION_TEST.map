@@ -103,8 +103,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xb0 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/syscalls.c.obj
  .debug_ranges  0x00000000       0xa0 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00000000      0x56a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000      0x894 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00000000      0x55c CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00000000      0x878 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/syscalls.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/syscalls.c.obj
  .debug_frame   0x00000000      0x1a8 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
@@ -237,8 +237,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x90 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_ranges  0x00000000       0x80 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x00000000      0xf06 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_str     0x00000000      0x892 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x00000000      0xece CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x00000000      0x876 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_frame   0x00000000      0x188 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .ARM.attributes
@@ -260,8 +260,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x38 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_ranges  0x00000000       0x28 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_line    0x00000000      0xae7 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_str     0x00000000      0x687 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_line    0x00000000      0xaaf CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000      0x66b CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_frame   0x00000000       0x74 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -293,8 +293,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x60 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_ranges  0x00000000       0x50 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_line    0x00000000      0x6ec CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_str     0x00000000      0x52e CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_line    0x00000000      0x6b4 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_str     0x00000000      0x512 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_frame   0x00000000       0xf4 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .ARM.attributes
@@ -343,8 +343,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_ranges  0x00000000       0x90 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_line    0x00000000      0x831 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_str     0x00000000      0x676 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_line    0x00000000      0x7f9 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_str     0x00000000      0x65a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x168 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .ARM.attributes
@@ -402,8 +402,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xc8 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_ranges  0x00000000       0xb8 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_line    0x00000000      0x92f CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_str     0x00000000      0x799 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_line    0x00000000      0x8f7 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000      0x77d CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x1e8 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -417,8 +417,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x38 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .debug_ranges  0x00000000       0x28 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_line    0x00000000      0x301 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x00000000      0x500 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_line    0x00000000      0x2c9 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x00000000      0x4e4 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .debug_frame   0x00000000       0x70 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
@@ -478,8 +478,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa0 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_ranges  0x00000000       0x90 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_line    0x00000000      0x4da CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_str     0x00000000      0x692 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_line    0x00000000      0x4a2 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_str     0x00000000      0x676 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x138 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .ARM.attributes
@@ -511,8 +511,8 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x60 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_ranges  0x00000000       0x50 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_line    0x00000000      0x580 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_str     0x00000000      0x61c CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00000000      0x548 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_str     0x00000000      0x600 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_frame   0x00000000       0xf4 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -576,8 +576,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x97 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x00000000      0x203 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_str     0x00000000      0x302 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x00000000      0x1d9 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_str     0x00000000      0x2e6 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .ARM.attributes
                 0x00000000       0x33 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -588,8 +588,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x97 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x00000000      0x203 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_str     0x00000000      0x305 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x00000000      0x1d9 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_str     0x00000000      0x2e9 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .comment       0x00000000       0x7a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .ARM.attributes
                 0x00000000       0x33 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
@@ -1201,39 +1201,39 @@ OUTPUT(F03_MX_CLION_TEST.elf elf32-littlearm)
  .debug_ranges  0x00000368       0x80 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_ranges  0x000003e8       0x20 CMakeFiles/F03_MX_CLION_TEST.elf.dir/startup/startup_stm32f446xx.s.obj
 
-.debug_line     0x00000000     0x457b
- .debug_line    0x00000000      0x4dc CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000004dc      0x280 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x0000075c      0x39c CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x00000af8      0x335 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x00000e2d      0x61d CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x0000144a      0x85a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x00001ca4      0x7dd CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x00002481      0xbf1 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00003072     0x1462 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
- .debug_line    0x000044d4       0xa7 CMakeFiles/F03_MX_CLION_TEST.elf.dir/startup/startup_stm32f446xx.s.obj
+.debug_line     0x00000000     0x4375
+ .debug_line    0x00000000      0x4a4 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000004a4      0x248 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x000006ec      0x364 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00000a50      0x2fd CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00000d4d      0x5e5 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00001332      0x822 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00001b54      0x7a5 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x000022f9      0xbb9 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x00002eb2     0x142a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+ .debug_line    0x000042dc       0x99 CMakeFiles/F03_MX_CLION_TEST.elf.dir/startup/startup_stm32f446xx.s.obj
 
-.debug_str      0x00000000     0x1be2
- .debug_str     0x00000000      0xb85 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/main.c.obj
-                                0xc06 (size before relaxing)
- .debug_str     0x00000b85       0x52 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                                0x41e (size before relaxing)
- .debug_str     0x00000bd7      0x118 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                                0x3d0 (size before relaxing)
- .debug_str     0x00000cef       0x81 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                                0x446 (size before relaxing)
- .debug_str     0x00000d70      0x306 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                                0xc6d (size before relaxing)
- .debug_str     0x00001076      0x4cc CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                                0xd87 (size before relaxing)
- .debug_str     0x00001542      0x125 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                                0x631 (size before relaxing)
- .debug_str     0x00001667      0x1b9 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                                0x814 (size before relaxing)
- .debug_str     0x00001820      0x36d CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
-                                0x917 (size before relaxing)
- .debug_str     0x00001b8d       0x55 CMakeFiles/F03_MX_CLION_TEST.elf.dir/startup/startup_stm32f446xx.s.obj
-                                 0x90 (size before relaxing)
+.debug_str      0x00000000     0x1b48
+ .debug_str     0x00000000      0xb69 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/main.c.obj
+                                0xbea (size before relaxing)
+ .debug_str     0x00000b69       0x44 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                                0x402 (size before relaxing)
+ .debug_str     0x00000bad      0x10a CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                                0x3b4 (size before relaxing)
+ .debug_str     0x00000cb7       0x73 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                                0x42a (size before relaxing)
+ .debug_str     0x00000d2a      0x2f8 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                                0xc51 (size before relaxing)
+ .debug_str     0x00001022      0x4be CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                                0xd6b (size before relaxing)
+ .debug_str     0x000014e0      0x117 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                                0x615 (size before relaxing)
+ .debug_str     0x000015f7      0x1ab CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                                0x7f8 (size before relaxing)
+ .debug_str     0x000017a2      0x35f CMakeFiles/F03_MX_CLION_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+                                0x8fb (size before relaxing)
+ .debug_str     0x00001b01       0x47 CMakeFiles/F03_MX_CLION_TEST.elf.dir/startup/startup_stm32f446xx.s.obj
+                                 0x74 (size before relaxing)
 
 .comment        0x00000000       0x79
  .comment       0x00000000       0x79 CMakeFiles/F03_MX_CLION_TEST.elf.dir/Core/Src/main.c.obj

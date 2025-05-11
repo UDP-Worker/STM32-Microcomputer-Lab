@@ -56,10 +56,10 @@ RM = "D:\Program Files\JetBrains\CLion 2025.1\bin\cmake\win\x64\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\SynologyDrive\STM32\F04_EXTI\01_BASIC
+CMAKE_SOURCE_DIR = F:\STM32\F04_EXTI\01_BASIC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\SynologyDrive\STM32\F04_EXTI\01_BASIC\cmake-build-debug
+CMAKE_BINARY_DIR = F:\STM32\F04_EXTI\01_BASIC\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,16 +86,16 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\SynologyDrive\STM32\F04_EXTI\01_BASIC\cmake-build-debug\CMakeFiles D:\SynologyDrive\STM32\F04_EXTI\01_BASIC\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STM32\F04_EXTI\01_BASIC\cmake-build-debug\CMakeFiles F:\STM32\F04_EXTI\01_BASIC\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\SynologyDrive\STM32\F04_EXTI\01_BASIC\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STM32\F04_EXTI\01_BASIC\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\SynologyDrive\STM32\F04_EXTI\01_BASIC\cmake-build-debug\CMakeFiles D:\SynologyDrive\STM32\F04_EXTI\01_BASIC\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STM32\F04_EXTI\01_BASIC\cmake-build-debug\CMakeFiles F:\STM32\F04_EXTI\01_BASIC\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\SynologyDrive\STM32\F04_EXTI\01_BASIC\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STM32\F04_EXTI\01_BASIC\cmake-build-debug\CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target

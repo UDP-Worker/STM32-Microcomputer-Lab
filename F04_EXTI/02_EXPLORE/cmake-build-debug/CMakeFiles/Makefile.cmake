@@ -106,7 +106,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Program Files/JetBrains/CLion 2025.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake"
   "D:/Program Files/JetBrains/CLion 2025.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake"
   "D:/Program Files/JetBrains/CLion 2025.1/bin/cmake/win/x64/share/cmake-3.31/Modules/Platform/Generic.cmake"
-  "D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/CMakeLists.txt"
+  "F:/STM32/F04_EXTI/02_EXPLORE/CMakeLists.txt"
   "CMakeFiles/3.31.6/CMakeASMCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"

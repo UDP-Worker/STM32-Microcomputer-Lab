@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "D:\Program Files\JetBrains\CLion 2025.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\SynologyDrive\STM32\F05_TIM\01_BASIC -BD:\SynologyDrive\STM32\F05_TIM\01_BASIC\cmake-build-debug
+  command = "D:\Program Files\JetBrains\CLion 2025.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\STM32\F05_TIM\01_BASIC -BF:\STM32\F05_TIM\01_BASIC\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

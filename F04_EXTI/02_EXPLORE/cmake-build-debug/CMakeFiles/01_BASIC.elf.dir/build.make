@@ -52,10 +52,10 @@ RM = "D:\Program Files\JetBrains\CLion 2025.1\bin\cmake\win\x64\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE
+CMAKE_SOURCE_DIR = F:\STM32\F04_EXTI\02_EXPLORE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug
+CMAKE_BINARY_DIR = F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/01_BASIC.elf.dir/depend.make
@@ -72,297 +72,297 @@ CMakeFiles/01_BASIC.elf.dir/codegen:
 .PHONY : CMakeFiles/01_BASIC.elf.dir/codegen
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Core/Src/main.c
+CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Core/Src/main.c
 CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\main.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\main.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\main.c
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\main.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\main.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\main.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Core/Src/main.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\main.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\main.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\main.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Core/Src/stm32f4xx_hal_msp.c
+CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Core/Src/stm32f4xx_it.c
+CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Core/Src/stm32f4xx_it.c
 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_it.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_it.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_it.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_it.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_it.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_it.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\stm32f4xx_it.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Core/Src/syscalls.c
+CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Core/Src/syscalls.c
 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\syscalls.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\syscalls.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\syscalls.c
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\syscalls.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\syscalls.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\syscalls.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Core/Src/syscalls.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\syscalls.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\syscalls.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\syscalls.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Core/Src/system_stm32f4xx.c
+CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Core/Src/system_stm32f4xx.c
 CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Core\Src\system_stm32f4xx.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\system_stm32f4xx.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\system_stm32f4xx.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\system_stm32f4xx.c > CMakeFiles\01_BASIC.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Core\Src\system_stm32f4xx.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\system_stm32f4xx.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Core\Src\system_stm32f4xx.c -o CMakeFiles\01_BASIC.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: F:/STM32/F04_EXTI/02_EXPLORE/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/01_BASIC.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/01_BASIC.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\01_BASIC.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj: CMakeFiles/01_BASIC.elf.dir/flags.make
-CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj: D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/startup/startup_stm32f446xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\01_BASIC.elf.dir\startup\startup_stm32f446xx.s.obj -c D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\startup\startup_stm32f446xx.s
+CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj: F:/STM32/F04_EXTI/02_EXPLORE/startup/startup_stm32f446xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj"
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\01_BASIC.elf.dir\startup\startup_stm32f446xx.s.obj -c F:\STM32\F04_EXTI\02_EXPLORE\startup\startup_stm32f446xx.s
 
 CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.i"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\startup\startup_stm32f446xx.s > CMakeFiles\01_BASIC.elf.dir\startup\startup_stm32f446xx.s.i
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E F:\STM32\F04_EXTI\02_EXPLORE\startup\startup_stm32f446xx.s > CMakeFiles\01_BASIC.elf.dir\startup\startup_stm32f446xx.s.i
 
 CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.s"
-	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\startup\startup_stm32f446xx.s -o CMakeFiles\01_BASIC.elf.dir\startup\startup_stm32f446xx.s.s
+	C:\gcc-arm-none-eabi\gcc-arm-none-eabi-9-2019-q4-major-win32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S F:\STM32\F04_EXTI\02_EXPLORE\startup\startup_stm32f446xx.s -o CMakeFiles\01_BASIC.elf.dir\startup\startup_stm32f446xx.s.s
 
 # Object files for target 01_BASIC.elf
 01_BASIC_elf_OBJECTS = \
@@ -414,12 +414,12 @@ CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.s: cmake_force
 01_BASIC.elf: CMakeFiles/01_BASIC.elf.dir/startup/startup_stm32f446xx.s.obj
 01_BASIC.elf: CMakeFiles/01_BASIC.elf.dir/build.make
 01_BASIC.elf: CMakeFiles/01_BASIC.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable 01_BASIC.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable 01_BASIC.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\01_BASIC.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.bin"
-	arm-none-eabi-objcopy -Oihex D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.elf D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.hex
-	arm-none-eabi-objcopy -Obinary D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.elf D:/SynologyDrive/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building F:/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building F:/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.bin"
+	arm-none-eabi-objcopy -Oihex F:/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.elf F:/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.hex
+	arm-none-eabi-objcopy -Obinary F:/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.elf F:/STM32/F04_EXTI/02_EXPLORE/cmake-build-debug/01_BASIC.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/01_BASIC.elf.dir/build: 01_BASIC.elf
@@ -430,6 +430,6 @@ CMakeFiles/01_BASIC.elf.dir/clean:
 .PHONY : CMakeFiles/01_BASIC.elf.dir/clean
 
 CMakeFiles/01_BASIC.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug D:\SynologyDrive\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles\01_BASIC.elf.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\STM32\F04_EXTI\02_EXPLORE F:\STM32\F04_EXTI\02_EXPLORE F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug F:\STM32\F04_EXTI\02_EXPLORE\cmake-build-debug\CMakeFiles\01_BASIC.elf.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/01_BASIC.elf.dir/depend
 

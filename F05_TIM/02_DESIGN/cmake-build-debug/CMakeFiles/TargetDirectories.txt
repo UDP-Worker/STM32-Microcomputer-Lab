@@ -1,3 +1,3 @@
-D:/SynologyDrive/STM32/F05_TIM/02_DESIGN/cmake-build-debug/CMakeFiles/02_DESIGN.elf.dir
-D:/SynologyDrive/STM32/F05_TIM/02_DESIGN/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/SynologyDrive/STM32/F05_TIM/02_DESIGN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/STM32/F05_TIM/02_DESIGN/cmake-build-debug/CMakeFiles/02_DESIGN.elf.dir
+F:/STM32/F05_TIM/02_DESIGN/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/STM32/F05_TIM/02_DESIGN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
