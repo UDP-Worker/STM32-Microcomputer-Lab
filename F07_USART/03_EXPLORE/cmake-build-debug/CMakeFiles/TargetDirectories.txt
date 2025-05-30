@@ -1,0 +1,3 @@
+F:/STM32/F07_USART/03_EXPLORE/cmake-build-debug/CMakeFiles/03_EXPLORE.elf.dir
+F:/STM32/F07_USART/03_EXPLORE/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/STM32/F07_USART/03_EXPLORE/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+ToolSet: 5.0 (local)@C:\MinGW
+Ninja: 1.12.1@D:\Program Files\JetBrains\CLion 2025.1\bin\ninja\win\x64\ninja.exe
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2025.1/bin/ninja/win/x64/ninja.exe

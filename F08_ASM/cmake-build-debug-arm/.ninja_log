@@ -1,0 +1,4 @@
+# ninja log v6
+0	44	7690809667567140	CMakeFiles/arm_data_move.dir/data_move.S.obj	6d634dfeae51cd3c
+1	54	7690814756110634	build.ninja	d5703aace212a78c
+1	69	7690810212573382	arm_data_move	e63def8cb2d2e1d5
