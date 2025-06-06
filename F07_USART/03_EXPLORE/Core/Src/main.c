@@ -52,13 +52,6 @@ volatile uint8_t  rx_buf[RX_BUF_LEN];
 volatile uint8_t  rx_len = 0;    /* 已收字节数 */
 volatile uint8_t  rx_ready = 0;  /* 一帧完毕标志 */
 
-/* line IO pin and port */
-GPIO_TypeDef * row_port[4] = {L1_GPIO_Port,L2_GPIO_Port,L3_GPIO_Port,L4_GPIO_Port};
-uint32_t row_pin[4] = {L1_Pin,L2_Pin,L3_Pin,L4_Pin};
-
-/* column IO pin and port */
-GPIO_TypeDef * col_port[4] = {R1_GPIO_Port,R2_GPIO_Port,R3_GPIO_Port,R4_GPIO_Port};
-uint32_t col_pin[4] = {R1_Pin,R2_Pin,R3_Pin,R4_Pin};
 
 const uint8_t LED_CODE[] = {
   0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,
@@ -69,15 +62,7 @@ uint32_t time_in_second = 0;
 uint8_t LED_BUF[8] = {0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF};
 
 uint8_t disp_ind = 0;
-uint8_t status = 0; //0 for regular clock, 1 for editing clock.
-uint8_t edit_pos = 0;              // 当前在 0~5 段上编辑：0→H 高位，1→H 低位，2→M 高位，3→M 低位，4→S 高位，5→S 低位
-const uint8_t edit_idx[6] = {7,6,4,3,1,0};
-const uint32_t weight[6] = {36000, 3600, 600, 60, 10, 1};
-const uint8_t max_digit[6] = {3,10,6,10,6,10};
-uint16_t blink_cnt = 0;            // TIM7 毫秒计数，用于 500 ms 闪烁
-uint8_t  blink_on  = 1;            // 当前是否“显示”编辑位
 volatile uint8_t rx_frame_len = 0;
-uint8_t cur_row = 0, cur_col = 0, key_value = 0;
 volatile uint8_t tx_time_flag = 0;
 /* USER CODE END PV */
 
@@ -103,83 +88,6 @@ void out_595(uint8_t data)
       HAL_GPIO_WritePin(DIO_GPIO_Port, DIO_Pin, GPIO_PIN_RESET);
     HAL_GPIO_WritePin(SCLK_GPIO_Port, SCLK_Pin, GPIO_PIN_SET);
   }
-}
-
-static void refresh_led_from_time(void);
-
-void judge_and_retrieve(int key_value)
-{
-  uint32_t time_in_digits[6];
-  uint32_t hours = (time_in_second/3600) % 24;
-  uint32_t minutes = (time_in_second - (hours*3600)) / 60;
-  uint32_t seconds = time_in_second % 60;
-  time_in_digits[0] = hours / 10;
-  time_in_digits[1] = hours % 10;
-  time_in_digits[2] = minutes / 10;
-  time_in_digits[3] = minutes % 10;
-  time_in_digits[4] = seconds / 10;
-  time_in_digits[5] = seconds % 10;
-  if (key_value == 14)
-  {
-    HAL_TIM_Base_Start_IT(&htim6);
-    status = 0;
-  }
-  if (key_value == 12)
-  {
-    edit_pos = (edit_pos + 1) % 6;
-  }
-  if (key_value == 0)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (1 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 1)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (2 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 2)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (3 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 4)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (4 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 5)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (5 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 6)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (6 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 8)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (7 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 9)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (8 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 10)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (9 % max_digit[edit_pos] - time_in_digits[edit_pos]);
-  }
-  if (key_value == 13)
-  {
-    time_in_second = time_in_second + weight[edit_pos] * (0 - time_in_digits[edit_pos]);
-  }
-  time_in_second = time_in_second % 86400;
-  hours = (time_in_second/3600) % 24;
-  minutes = (time_in_second - (hours*3600)) / 60;
-  seconds = time_in_second % 60;
-  LED_BUF[7] = LED_CODE[hours / 10];
-  LED_BUF[6] = LED_CODE[hours % 10];
-  LED_BUF[5] = 0xBF;
-  LED_BUF[4] = LED_CODE[minutes / 10];
-  LED_BUF[3] = LED_CODE[minutes % 10];
-  LED_BUF[2] = 0xBF;
-  LED_BUF[1] = LED_CODE[seconds / 10];
-  LED_BUF[0] = LED_CODE[seconds % 10];
 }
 
 static void refresh_led_from_time(void)
@@ -487,45 +395,23 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOC_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, SCLK_Pin|DIO_Pin|L3_Pin|L2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, SCLK_Pin|DIO_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, L4_Pin|RCLK_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, RCLK_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(L1_GPIO_Port, L1_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pins : SCLK_Pin DIO_Pin L3_Pin L2_Pin */
-  GPIO_InitStruct.Pin = SCLK_Pin|DIO_Pin|L3_Pin|L2_Pin;
+  /*Configure GPIO pins : SCLK_Pin DIO_Pin */
+  GPIO_InitStruct.Pin = SCLK_Pin|DIO_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : L4_Pin RCLK_Pin */
-  GPIO_InitStruct.Pin = L4_Pin|RCLK_Pin;
+  /*Configure GPIO pin : RCLK_Pin */
+  GPIO_InitStruct.Pin = RCLK_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : L1_Pin */
-  GPIO_InitStruct.Pin = L1_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(L1_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : R4_Pin */
-  GPIO_InitStruct.Pin = R4_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
-  HAL_GPIO_Init(R4_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : R3_Pin R1_Pin R2_Pin */
-  GPIO_InitStruct.Pin = R3_Pin|R1_Pin|R2_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
 }
@@ -537,38 +423,16 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
     HAL_GPIO_WritePin(RCLK_GPIO_Port, RCLK_Pin, GPIO_PIN_RESET);
 
-    uint8_t seg = LED_BUF[disp_ind];
-    // 如果在编辑模式，且这个位正好是 edit_idx[edit_pos]
-    // 且 blink_on==0，就输出 0xFF（熄灭）来闪烁
-    if (status == 1 && disp_ind == edit_idx[edit_pos] && blink_on == 0) {
-      seg = 0xFF;
-    }
-    out_595(seg);
+    out_595(LED_BUF[disp_ind]);
     out_595(1 << disp_ind);
 
     HAL_GPIO_WritePin(RCLK_GPIO_Port, RCLK_Pin, GPIO_PIN_SET);
     disp_ind = (disp_ind + 1) & 0x07;
-
-    // —— 增加闪烁逻辑 ——
-    if (++blink_cnt >= 500) {
-      blink_cnt = 0;
-      blink_on ^= 1;
-    }
   }
   if (htim->Instance == TIM6)
   {
     time_in_second = (time_in_second + 1) % 86400;
-    uint32_t hours = (time_in_second/3600) % 24;
-    uint32_t minutes = (time_in_second - (hours*3600)) / 60;
-    uint32_t seconds = time_in_second % 60;
-    LED_BUF[7] = LED_CODE[hours / 10];
-    LED_BUF[6] = LED_CODE[hours % 10];
-    LED_BUF[5] = 0xBF;
-    LED_BUF[4] = LED_CODE[minutes / 10];
-    LED_BUF[3] = LED_CODE[minutes % 10];
-    LED_BUF[2] = 0xBF;
-    LED_BUF[1] = LED_CODE[seconds / 10];
-    LED_BUF[0] = LED_CODE[seconds % 10];
+    refresh_led_from_time();
     tx_time_flag = 1;
   }
 }
