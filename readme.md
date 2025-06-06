@@ -22,15 +22,12 @@
 - 13_OLED:OLED显示模块实验
 - 15_RTC:实时时钟RTC实验
 - 16_START:课程项目起步实验
-- F00_TEST: 请忽略
-- F01_BUTTON_LED: 请忽略
-- F02_CLION_MX_TEST: 请忽略
-- F03_MX_CLION_TEST: 使用CLion + Cubemx开发测试
-- F04_EXTI: 微机原理课程硬件实验一
-- F05_TIM: 微机原理课程硬件实验二
-- F06_KEY: 微机原理课程硬件实验三
-- F07_USART: 微机原理课程硬件实验四
-- F08_ASM: 汇编软件实验
+- F00_ASM: 汇编软件实验
+- F01_EXTI: 微机原理课程硬件实验一
+- F02_TIM: 微机原理课程硬件实验二
+- F03_KEY: 微机原理课程硬件实验三
+- F04_USART: 微机原理课程硬件实验四
+
 ## 开发环境(F字头实验)
 
 - 开发板:STM32F446RE Nucleo-64
