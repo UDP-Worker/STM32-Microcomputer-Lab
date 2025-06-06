@@ -69,12 +69,12 @@ uint8_t LED_BUF[8] = {0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF};
 
 uint8_t disp_ind = 0;
 uint8_t status = 0; //0 for regular clock, 1 for editing clock.
-uint8_t edit_pos = 0;              // 当前�? 0~5 段上编辑�?0→H 高位�?1→H 低位�?2→M 高位�?5→S 低位�?
+uint8_t edit_pos = 0;              // 当前在 0~5 段上编辑：0→H 高位，1→H 低位，2→M 高位，3→M 低位，4→S 高位，5→S 低位
 const uint8_t edit_idx[6] = {7,6,4,3,1,0};
 const uint32_t weight[6] = {36000, 3600, 600, 60, 10, 1};
 const uint8_t max_digit[6] = {3,10,6,10,6,10};
-uint16_t blink_cnt = 0;            // TIM7 毫秒计数，用�? 500 ms 闪烁
-uint8_t  blink_on  = 1;            // 当前是否“显示�?�编辑位
+uint16_t blink_cnt = 0;            // TIM7 毫秒计数，用于 500 ms 闪烁
+uint8_t  blink_on  = 1;            // 当前是否“显示”编辑位
 volatile uint8_t rx_frame_len = 0;
 uint8_t cur_row = 0, cur_col = 0, key_value = 0;
 /* USER CODE END PV */
@@ -470,8 +470,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     HAL_GPIO_WritePin(RCLK_GPIO_Port, RCLK_Pin, GPIO_PIN_RESET);
 
     uint8_t seg = LED_BUF[disp_ind];
-    // 如果在编辑模式，且这个位正好�? edit_idx[edit_pos]�?
-    // �? blink_on==0，就输出 0xFF（熄灭）来闪�?
+    // 如果在编辑模式，且这个位正好是 edit_idx[edit_pos]
+    // 且 blink_on==0，就输出 0xFF（熄灭）来闪烁
     if (status == 1 && disp_ind == edit_idx[edit_pos] && blink_on == 0) {
       seg = 0xFF;
     }
@@ -481,7 +481,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     HAL_GPIO_WritePin(RCLK_GPIO_Port, RCLK_Pin, GPIO_PIN_SET);
     disp_ind = (disp_ind + 1) & 0x07;
 
-    // —�?? 增加闪烁逻辑 —�??
+    // —— 增加闪烁逻辑 ——
     if (++blink_cnt >= 500) {
       blink_cnt = 0;
       blink_on ^= 1;
