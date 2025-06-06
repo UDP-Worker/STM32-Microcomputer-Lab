@@ -1,3 +1,0 @@
-F:/STM32/F03_MX_CLION_TEST/cmake-build-debug/CMakeFiles/F03_MX_CLION_TEST.elf.dir
-F:/STM32/F03_MX_CLION_TEST/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/STM32/F03_MX_CLION_TEST/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -380,7 +380,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     uint8_t idx;
     for (int i = 0; i < 8; i++) {
       idx = (scroll_idx + i) % sid_scroll_len;
-      if (idx < sid_disp_len)            /* ← 用新的长度变量 */
+      if (idx < sid_disp_len)
         LED_BUF[i] = LED_CODE[sid_buf[idx]];
       else
         LED_BUF[i] = 0xFF;
@@ -393,9 +393,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
   if (huart->Instance == USART2) {
 
-    SID_Parse(rx_byte);                              /* 交给状态机解析 */
-
-    /* 继续收下一字节 */
+    SID_Parse(rx_byte);
     HAL_UART_Receive_IT(&huart2, (uint8_t *)&rx_byte, 1);
   }
 }

@@ -1,3 +1,0 @@
-F:/STM32/F08_ASM/cmake-build-debug-arm/CMakeFiles/arm_data_move.dir
-F:/STM32/F08_ASM/cmake-build-debug-arm/CMakeFiles/edit_cache.dir
-F:/STM32/F08_ASM/cmake-build-debug-arm/CMakeFiles/rebuild_cache.dir

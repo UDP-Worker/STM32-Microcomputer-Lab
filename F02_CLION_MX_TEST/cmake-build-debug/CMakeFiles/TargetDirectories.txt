@@ -1,3 +1,0 @@
-D:/SynologyDrive/STM32/F02_CLION_MX_TEST/cmake-build-debug/CMakeFiles/F02_CLION_MX_TEST.elf.dir
-D:/SynologyDrive/STM32/F02_CLION_MX_TEST/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/SynologyDrive/STM32/F02_CLION_MX_TEST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
