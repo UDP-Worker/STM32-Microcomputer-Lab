@@ -1,0 +1,33 @@
+# Ignore IDE directories
+.idea/
+.metadata/
+*.iml
+.project
+.cproject
+.settings/
+
+# Ignore build directories
+Debug/
+**/Debug/
+cmake-build-*/
+**/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+
+# Ignore build artifacts
+*.o
+*.d
+*.su
+*.elf
+*.bin
+*.hex
+*.list
+*.map
+*.out
+
+# Temporary files
+*.log
+*~
+~$*
