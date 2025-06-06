@@ -105,6 +105,8 @@ void out_595(uint8_t data)
   }
 }
 
+static void refresh_led_from_time(void);
+
 void judge_and_retrieve(int key_value)
 {
   uint32_t time_in_digits[6];
@@ -179,6 +181,21 @@ void judge_and_retrieve(int key_value)
   LED_BUF[1] = LED_CODE[seconds / 10];
   LED_BUF[0] = LED_CODE[seconds % 10];
 }
+
+static void refresh_led_from_time(void)
+{
+  uint32_t hours = (time_in_second/3600) % 24;
+  uint32_t minutes = (time_in_second % 3600) / 60;
+  uint32_t seconds = time_in_second % 60;
+  LED_BUF[7] = LED_CODE[hours / 10];
+  LED_BUF[6] = LED_CODE[hours % 10];
+  LED_BUF[5] = 0xBF;
+  LED_BUF[4] = LED_CODE[minutes / 10];
+  LED_BUF[3] = LED_CODE[minutes % 10];
+  LED_BUF[2] = 0xBF;
+  LED_BUF[1] = LED_CODE[seconds / 10];
+  LED_BUF[0] = LED_CODE[seconds % 10];
+}
 /* USER CODE END 0 */
 
 /**
@@ -243,7 +260,7 @@ int main(void)
           if (hh < 24) {
             hours = hh;
             time_in_second = hours*3600 + minutes*60 + seconds;
-            judge_and_retrieve(13);
+            refresh_led_from_time();
             HAL_UART_Transmit(&huart2, (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
           } else {
             HAL_UART_Transmit(&huart2, (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
@@ -253,7 +270,7 @@ int main(void)
           if (mm < 60) {
             minutes = mm;
             time_in_second = hours*3600 + minutes*60 + seconds;
-            judge_and_retrieve(13);
+            refresh_led_from_time();
             HAL_UART_Transmit(&huart2, (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
           } else {
             HAL_UART_Transmit(&huart2, (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
@@ -263,7 +280,7 @@ int main(void)
           if (ss < 60) {
             seconds = ss;
             time_in_second = hours*3600 + minutes*60 + seconds;
-            judge_and_retrieve(13);
+            refresh_led_from_time();
             HAL_UART_Transmit(&huart2, (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
           } else {
             HAL_UART_Transmit(&huart2, (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
@@ -274,7 +291,7 @@ int main(void)
           uint8_t ss = (rx_buf[5]-'0')*10 + (rx_buf[6]-'0');
           if (hh < 24 && mm < 60 && ss < 60) {
             time_in_second = hh*3600 + mm*60 + ss;
-            judge_and_retrieve(13);
+            refresh_led_from_time();
             HAL_UART_Transmit(&huart2, (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
           } else {
             HAL_UART_Transmit(&huart2, (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
