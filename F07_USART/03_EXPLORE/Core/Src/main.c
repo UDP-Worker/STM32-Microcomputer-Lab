@@ -220,31 +220,68 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  /* UART 协议：
+   *   "Hhh"  -- 设置小时 (00-23)
+   *   "Mmm"  -- 设置分钟 (00-59)
+   *   "Sss"  -- 设置秒钟 (00-59)
+   *   "Thhmmss" -- 同时设置时分秒
+   *   每条指令以 \r 或 \n 结束
+   */
   while (1)
   {
     if (rx_ready) {
       rx_ready = 0;
 
-      /* 简单协议：THHMMSS——例如 T142305 表示 14:23:05 */
-      if (rx_buf[0]=='T' && rx_frame_len>=7) {
-        uint8_t hh = (rx_buf[1]-'0')*10 + (rx_buf[2]-'0');
-        uint8_t mm = (rx_buf[3]-'0')*10 + (rx_buf[4]-'0');
-        uint8_t ss = (rx_buf[5]-'0')*10 + (rx_buf[6]-'0');
+      if (rx_frame_len >= 1) {
+        char cmd = rx_buf[0];
+        uint32_t hours = (time_in_second / 3600) % 24;
+        uint32_t minutes = (time_in_second % 3600) / 60;
+        uint32_t seconds = time_in_second % 60;
 
-        /* 合法性检查 */
-        if (hh<24 && mm<60 && ss<60) { //hh<24 && mm<60 && ss<60
-          time_in_second = hh*3600 + mm*60 + ss;   /* 直接回写核心计时变量 */
-          /* 立即刷新 LED_BUF：重用已有函数 */
-          judge_and_retrieve(13);   /* “清零”键值，强制 LED 重新装载当前时间 */
-          HAL_UART_Transmit(&huart2,
-              (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
+        if (cmd == 'H' && rx_frame_len >= 3) {
+          uint8_t hh = (rx_buf[1]-'0')*10 + (rx_buf[2]-'0');
+          if (hh < 24) {
+            hours = hh;
+            time_in_second = hours*3600 + minutes*60 + seconds;
+            judge_and_retrieve(13);
+            HAL_UART_Transmit(&huart2, (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
+          } else {
+            HAL_UART_Transmit(&huart2, (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
+          }
+        } else if (cmd == 'M' && rx_frame_len >= 3) {
+          uint8_t mm = (rx_buf[1]-'0')*10 + (rx_buf[2]-'0');
+          if (mm < 60) {
+            minutes = mm;
+            time_in_second = hours*3600 + minutes*60 + seconds;
+            judge_and_retrieve(13);
+            HAL_UART_Transmit(&huart2, (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
+          } else {
+            HAL_UART_Transmit(&huart2, (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
+          }
+        } else if (cmd == 'S' && rx_frame_len >= 3) {
+          uint8_t ss = (rx_buf[1]-'0')*10 + (rx_buf[2]-'0');
+          if (ss < 60) {
+            seconds = ss;
+            time_in_second = hours*3600 + minutes*60 + seconds;
+            judge_and_retrieve(13);
+            HAL_UART_Transmit(&huart2, (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
+          } else {
+            HAL_UART_Transmit(&huart2, (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
+          }
+        } else if (cmd == 'T' && rx_frame_len >= 7) {
+          uint8_t hh = (rx_buf[1]-'0')*10 + (rx_buf[2]-'0');
+          uint8_t mm = (rx_buf[3]-'0')*10 + (rx_buf[4]-'0');
+          uint8_t ss = (rx_buf[5]-'0')*10 + (rx_buf[6]-'0');
+          if (hh < 24 && mm < 60 && ss < 60) {
+            time_in_second = hh*3600 + mm*60 + ss;
+            judge_and_retrieve(13);
+            HAL_UART_Transmit(&huart2, (uint8_t*)"OK\r\n", 4, HAL_MAX_DELAY);
+          } else {
+            HAL_UART_Transmit(&huart2, (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
+          }
         } else {
-          HAL_UART_Transmit(&huart2,
-              (uint8_t*)"ERR\r\n", 5, HAL_MAX_DELAY);
+          HAL_UART_Transmit(&huart2, (uint8_t*)"?\r\n", 3, HAL_MAX_DELAY);
         }
-      } else {
-        HAL_UART_Transmit(&huart2,
-            (uint8_t*)"?\r\n", 3, HAL_MAX_DELAY);
       }
     }
     if (tx_time_flag) {
