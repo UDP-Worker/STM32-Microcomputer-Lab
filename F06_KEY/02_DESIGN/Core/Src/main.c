@@ -153,7 +153,7 @@ int main(void)
                 HAL_Delay(20);
                 if (HAL_GPIO_ReadPin(col_port[cur_col], col_pin[cur_col]) == GPIO_PIN_RESET) {
                     key_value = cur_row * 3 + cur_col;
-                    /* # 键切换模�? */
+                    /* # 键切换模式 */
                     if (key_value == 11) {
                         if (!input_mode) {
                             input_mode = 1; sid_len = 0; scroll_idx = 0;
@@ -377,7 +377,7 @@ static void MX_GPIO_Init(void)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
   if (htim->Instance == TIM7) {
-    /* 刷新动�?�数码管 */
+    /* 刷新动态数码管 */
     HAL_GPIO_WritePin(RCLK_GPIO_Port, RCLK_Pin, GPIO_PIN_RESET);
     out_595(LED_BUF[disp_ind]);
     out_595(1 << disp_ind);
