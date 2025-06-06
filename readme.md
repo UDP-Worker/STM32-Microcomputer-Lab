@@ -8,27 +8,13 @@
 
 ## 实验目录
 
-- 01_FlashingLED:LED闪烁控制实验
-- 02_Buzzer:蜂鸣器输出控制实验
-- 03_Button:按键检测与处理实验
-- 04_EXTI:外部中断检测实验
-- 05_USART_Polling:USART轮询收发实验
-- 06_USART_IT:USART中断收发实验
-- 07_IWDG:独立看门狗定时器实验
-- 09_BTIM:基本定时器BTIM使用实验
-- 10_GTIM:通用定时器GTIM使用实验
-- 11_GTIM_IC:通用定时器输入捕获实验
-- 12_ATIM:高级定时器ATIM使用实验
-- 13_OLED:OLED显示模块实验
-- 15_RTC:实时时钟RTC实验
-- 16_START:课程项目起步实验
 - F00_ASM: 汇编软件实验
 - F01_EXTI: 微机原理课程硬件实验一
 - F02_TIM: 微机原理课程硬件实验二
 - F03_KEY: 微机原理课程硬件实验三
 - F04_USART: 微机原理课程硬件实验四
 
-## 开发环境(F字头实验)
+## 开发环境
 
 - 开发板:STM32F446RE Nucleo-64
 - IDE:CLion + STM32CubeMX
