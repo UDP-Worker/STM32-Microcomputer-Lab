@@ -21,6 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
 
 /* USER CODE END Includes */
 
@@ -77,6 +78,7 @@ uint16_t blink_cnt = 0;            // TIM7 毫秒计数，用于 500 ms 闪烁
 uint8_t  blink_on  = 1;            // 当前是否“显示”编辑位
 volatile uint8_t rx_frame_len = 0;
 uint8_t cur_row = 0, cur_col = 0, key_value = 0;
+volatile uint8_t tx_time_flag = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -244,6 +246,18 @@ int main(void)
         HAL_UART_Transmit(&huart2,
             (uint8_t*)"?\r\n", 3, HAL_MAX_DELAY);
       }
+    }
+    if (tx_time_flag) {
+      tx_time_flag = 0;
+      char tbuf[16];
+      uint32_t hours = (time_in_second/3600) % 24;
+      uint32_t minutes = (time_in_second % 3600) / 60;
+      uint32_t seconds = time_in_second % 60;
+      int len = sprintf(tbuf, "%02u:%02u:%02u\r\n",
+                        (unsigned int)hours,
+                        (unsigned int)minutes,
+                        (unsigned int)seconds);
+      HAL_UART_Transmit(&huart2, (uint8_t*)tbuf, len, HAL_MAX_DELAY);
     }
     __WFI();
 
@@ -501,6 +515,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     LED_BUF[2] = 0xBF;
     LED_BUF[1] = LED_CODE[seconds / 10];
     LED_BUF[0] = LED_CODE[seconds % 10];
+    tx_time_flag = 1;
   }
 }
 
