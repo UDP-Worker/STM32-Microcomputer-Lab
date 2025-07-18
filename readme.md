@@ -1,4 +1,4 @@
-# STM32 ZJU Microcomputer Lab
+# ZJU Microcomputer Lab
 
 本仓库整理了浙江大学光电信息科学与工程专业《微机原理与接口技术》(教改班)课程中的汇编软件实验和四个硬件实验项目.
 
